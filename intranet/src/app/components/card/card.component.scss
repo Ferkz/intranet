@@ -1,0 +1,44 @@
+$primarycolor: #154c79;
+.main {
+  display: flex;
+}
+.card-principal {
+  display: flex;
+  max-width: 420px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 9px;
+  flex-wrap: wrap;
+}
+mat-card-title{
+padding: 10px 40px ;
+background-color: $primarycolor;
+width: 60%;
+border-radius: 10px;
+color: #fff;
+text-align: center;
+}
+.card {
+  color: #fff;
+  font-size: 13px;
+  width: 120px;
+  text-align: center;
+  background-color: $primarycolor;
+  border-radius: 10px;
+  margin:  10px 10px;
+  .card-title{
+    margin: 0 10px;
+  }
+  button {
+    width: 100%;
+    margin: 0 3px ;
+    font-size: 13px;
+  }
+}
+.card-img{
+  width: 40%;
+  margin: 20px;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+}

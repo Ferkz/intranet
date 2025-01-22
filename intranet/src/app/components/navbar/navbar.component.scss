@@ -1,0 +1,66 @@
+$menuHeight: 60px;
+$menuBreakpoint: 768px;
+$primaryColor: #154c79;
+
+.container{
+  margin: 20px;
+}
+.app-header{
+  width: 100%;
+  button{
+    margin: 0 16px;
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .menu-item{
+    color: #fff;
+    background-color: #154c79;
+  }
+  .logo{
+    width: 90px;
+    height: 60px;
+    align-items: center;
+    @media (max-width: $menuBreakpoint) {
+      display: none;
+    }
+  }
+  .mat-toolbar{
+    background-color:$primaryColor ;
+    color: white;
+  }
+}
+.burger {
+  padding: 0 10px;
+  display: none;
+  cursor: pointer;
+  i {
+    color: #fff;
+    line-height: $menuHeight;
+  }
+  @media (max-width: $menuBreakpoint) {
+    display: block;
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  @media (max-width: $menuBreakpoint) {
+    display: none;
+    &.is-open {
+      display: block;
+      position: absolute;
+      top: #{$menuHeight +1 };
+      background:$primaryColor ;
+      width: 96%;
+    }
+}
+  .menu-item {
+    margin: 20px;
+    display: flex;
+  }
+}
+.btn-calcular{
+  width: 10px;
+}
+
