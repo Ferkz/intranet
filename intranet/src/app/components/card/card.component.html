@@ -1,21 +1,14 @@
-  <div class="card-principal">
-    <mat-card-title>Menu rápido</mat-card-title>
-    <mat-card class="card" *ngFor="let sistema of sistemas">
-      <div class="card-title">
-      <p>{{sistema.nome}}</p>
-      </div>
-      <mat-card-actions align="end">
-        <button mat-flat-button routerLink="/add">
-          Acessar
-          <mat-icon class="mat-18">wysiwyg</mat-icon>
-        </button>
-      </mat-card-actions>
-    </mat-card>
+<div class="container">
+  <div class="menu">
+    <div class="card-principal">
+      <mat-card class="card" *ngFor="let sistema of sistemas; let i = index">
+        <mat-icon>{{ icons[i]?.icon  }}</mat-icon>
+        <mat-card-actions align="end">
+          <button mat-button routerLink="">
+            <p>{{ sistema.nome }}</p>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
   </div>
-  <div class="card-img">
-    <mat-card>
-      <img mat-card-image src="../../../assets/main.png" alt="Photo of a Shiba Inu">
-    </mat-card>
-  </div>
-
-
+ </div>

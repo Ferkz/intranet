@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './components/footer/footer.component';
 import {MatCardModule} from '@angular/material/card';
 import { SistemasComponent } from './pages/sistemas/sistemas.component';
+import { ContainerComponent } from './components/container/container.component';
 
 
 
@@ -23,7 +24,8 @@ import { SistemasComponent } from './pages/sistemas/sistemas.component';
     NavbarComponent,
     FooterComponent,
     CardComponent,
-    SistemasComponent
+    SistemasComponent,
+    ContainerComponent
 
    ],
   imports: [
