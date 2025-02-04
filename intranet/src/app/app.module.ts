@@ -14,6 +14,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import {MatCardModule} from '@angular/material/card';
 import { SistemasComponent } from './pages/sistemas/sistemas.component';
 import { ContainerComponent } from './components/container/container.component';
+import { RadiologiaComponent } from './pages/radiologia/radiologia.component';
+import { EnfermagemComponent } from './pages/enfermagem/enfermagem.component';
+import { LaboratorioComponent } from './pages/laboratorio/laboratorio.component';
 
 
 
@@ -25,7 +28,10 @@ import { ContainerComponent } from './components/container/container.component';
     FooterComponent,
     CardComponent,
     SistemasComponent,
-    ContainerComponent
+    ContainerComponent,
+    RadiologiaComponent,
+    EnfermagemComponent,
+    LaboratorioComponent
 
    ],
   imports: [

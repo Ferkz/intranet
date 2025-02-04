@@ -1,0 +1,60 @@
+$primarycolor: #fff;
+$secondarycolor: #154c79;
+$menuBreakpoint: 768px;
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+
+
+}
+.card-principal {
+  display: flex;
+  max-width: 420px;
+  margin: 10px;
+  justify-content:center;
+  border-radius: 9px;
+  flex-wrap: wrap;
+}
+.link{
+  text-decoration: none;
+}
+.card {
+  color: $secondarycolor;
+  font-size: 13px;
+  width: 90px;
+  text-align: center;
+  background-color: $primarycolor;
+  border-radius: 10px;
+  margin:  0.5rem 0.5rem;
+  .card-title{
+    margin: 0 10px;
+  }
+  button {
+    width: 100%;
+    font-size: 15px;
+  }
+  @media (max-width :$menuBreakpoint) {
+    margin: 3px;
+    width: 80px;
+    font-size: 18px;
+
+  }
+
+}
+.card-img{
+  width: 50%;
+  margin-right: 20px;
+  margin: 1.5rem;
+  @media(max-width: $menuBreakpoint) {
+    width: 100%;
+
+  }
+}
+

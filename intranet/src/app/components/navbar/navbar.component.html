@@ -1,18 +1,16 @@
 <header>
   <header class="app-header">
     <mat-toolbar>
-      <div class="logo">
-        <img src="../../../assets/nova logo horizontal.png" width="150px" alt="logo samar">
-      </div>
       <li class="burger" (click)="toggleMenu()">
         <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
       </li>
       <span class="spacer"></span>
       <div class="menu" [class.is-open]="isMenuOpen">
-        <button mat-button routerLink="/home" class="menu-item">Inicio</button>
+        <button mat-button routerLink="/" class="menu-item">Inicio</button>
         <button mat-button class="menu-item" routerLink="/radiologia">Radiologia</button>
-        <button mat-button routerLink="/lista-diarias" class="menu-item">Enfermagem</button>
-        <button mat-button class="menu-item" routerLink="/radiologia">Sistemas</button>
+        <button mat-button class="menu-item" routerLink="/enfermagem">Enfermagem</button>
+        <button mat-button class="menu-item" routerLink="/">Sistemas</button>
+        <button mat-button class="menu-item" routerLink="/laboratorio">Laboratório</button>
       </div>
       </mat-toolbar>
   </header>

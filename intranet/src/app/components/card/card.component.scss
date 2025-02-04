@@ -11,8 +11,6 @@ $menuBreakpoint: 768px;
   width: 100vw;
   height: 80vh;
   position: absolute;
-
-
 }
 .card-principal {
   display: flex;
@@ -21,6 +19,9 @@ $menuBreakpoint: 768px;
   justify-content:center;
   border-radius: 9px;
   flex-wrap: wrap;
+}
+.link{
+  text-decoration: none;
 }
 .card {
   color: $secondarycolor;

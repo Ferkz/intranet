@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   sistemas = [
-    {nome: 'Enfermagem'},
-    {nome:'Médico'},
-    {nome:'Triagem'},
-    {nome: 'Radiologia'},
-    {nome: 'Google Chat'},
-    {nome: 'Gmail'},
-    {nome: 'Suporte TI'},
+    {nome: 'Enfermagem', link:''},
+    {nome:'Médico',link:'http://10.0.0.65:8080/servo/logon.jsp?sys=ATE&msgKey='},
+    {nome:'Triagem', link:''},
+    {nome: 'Radiologia', link:'http://laudo.hospitalsamar.com.br/'},
+    {nome: 'Google Chat', link:'https://mail.google.com/chat/u/0/#chat/home'},
+    {nome: 'Gmail', link:'https://mail.google.com'},
+    {nome: 'Suporte TI', link:'https://ti.redesamar.com.br/'},
   ]
   icons = [
     {icon:'local_hospital'},
