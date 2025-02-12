@@ -26,11 +26,11 @@ $menuBreakpoint: 768px;
   text-decoration: none;
 }
 .card {
-  color: $secondarycolor;
+  color: $primarycolor;
   font-size: 13px;
   width: 90px;
   text-align: center;
-  background-color: $primarycolor;
+  background-color: $secondarycolor;
   border-radius: 10px;
   margin:  0.5rem 0.5rem;
   .card-title{

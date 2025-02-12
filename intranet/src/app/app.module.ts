@@ -17,9 +17,7 @@ import { ContainerComponent } from './components/container/container.component';
 import { RadiologiaComponent } from './pages/radiologia/radiologia.component';
 import { EnfermagemComponent } from './pages/enfermagem/enfermagem.component';
 import { LaboratorioComponent } from './pages/laboratorio/laboratorio.component';
-
-
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -41,7 +39,8 @@ import { LaboratorioComponent } from './pages/laboratorio/laboratorio.component'
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

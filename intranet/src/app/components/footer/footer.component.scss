@@ -9,13 +9,31 @@ background: #eee;
 .footer{
   color: #fff;
   height: 3.5rem;
-  text-align: center;
   bottom: 0;
   position: fixed;
   width: 100%;
   margin-top: 10px;
-
-
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+.socials-group{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #fff;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: end;
+  align-content:center;
+}
+.socials{
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  text-decoration: none;
 }
 .footer-link{
   cursor: pointer;

@@ -15,8 +15,8 @@ $secondarycolor: #154c79;
     flex: 1 1 auto;
   }
   .menu-item{
-    color: $secondarycolor;
-    background-color: $primaryColor;
+    color: $primaryColor;
+    background-color: $secondarycolor;
   }
   .logo{
     width: 90px;
@@ -30,10 +30,6 @@ $secondarycolor: #154c79;
     background-color: transparent !important;
     box-shadow: none !important;
     color: white;
-    width: 20%;
-
-
-
   }
 }
 .burger {
