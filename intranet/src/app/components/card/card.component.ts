@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   sistemas = [
-    {nome: 'Enfermagem', link:''},
+    {nome: 'Enfermagem', link:'http://10.0.0.65:8080/servo/logon.jsp?sys=ENF&msgKey='},
     {nome:'Médico',link:'http://10.0.0.65:8080/servo/logon.jsp?sys=ATE&msgKey='},
-    {nome:'Triagem', link:''},
+    {nome:'Triagem', link:'http://10.0.0.65:8080/servo/logon.jsp?sys=TRI&msgKey='},
     {nome: 'Radiologia', link:'http://laudo.hospitalsamar.com.br/'},
     {nome: 'Google Chat', link:'https://mail.google.com/chat/u/0/#chat/home'},
     {nome: 'Gmail', link:'https://mail.google.com'},
