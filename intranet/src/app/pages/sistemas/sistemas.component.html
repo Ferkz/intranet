@@ -3,7 +3,7 @@
     <div class="card-principal">
       <a [href]="systemLink" target="_blank" class="link">
       <mat-card class="card" *ngFor="let sistema of sistemas; let i = index">
-        <mat-icon>{{ icons[i]?.icon  }}</mat-icon>
+        <mat-icon>{{ icons[i].icon  }}</mat-icon>
         <mat-card-actions align="end">
           <button mat-button routerLink="">
             <p>{{ systemName }}</p>
