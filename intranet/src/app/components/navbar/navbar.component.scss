@@ -55,14 +55,12 @@ $secondarycolor: #154c79;
       top: #{$menuHeight +1 };
       background:$primaryColor ;
       width: 90%;
+      z-index: 1000;
     }
 }
   .menu-item {
-    margin: 20px;
+    margin: 10px;
     display: flex;
   }
-}
-.btn-calcular{
-  width: 10px;
 }
 
