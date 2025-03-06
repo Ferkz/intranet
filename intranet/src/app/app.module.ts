@@ -9,6 +9,7 @@ import { CardComponent } from './components/card/card.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import {MatMenuModule} from '@angular/material/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FooterComponent } from './components/footer/footer.component';
 import {MatCardModule} from '@angular/material/card';
@@ -18,6 +19,8 @@ import { RadiologiaComponent } from './pages/radiologia/radiologia.component';
 import { EnfermagemComponent } from './pages/enfermagem/enfermagem.component';
 import { LaboratorioComponent } from './pages/laboratorio/laboratorio.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ComprasComponent } from './pages/compras/compras.component';
+import { SystemCardComponent } from './components/system-card/system-card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ContainerComponent,
     RadiologiaComponent,
     EnfermagemComponent,
-    LaboratorioComponent
+    LaboratorioComponent,
+    ComprasComponent,
+    SystemCardComponent
 
    ],
   imports: [
@@ -40,7 +45,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatButtonModule,
     MatCardModule,
     BrowserAnimationsModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    MatMenuModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,7 +2,7 @@
   <header class="app-header">
     <mat-toolbar>
       <div class="logo">
-        <img src="../../../assets/logo azul.png" alt="" width="180px">
+        <img src="../../../assets/logo azul.png" alt="logo rede samar" width="190px">
       </div>
       <li class="burger" (click)="toggleMenu()">
         <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
@@ -12,8 +12,12 @@
         <button mat-button routerLink="/" class="menu-item">Inicio</button>
         <button mat-button class="menu-item" routerLink="/radiologia">Radiologia</button>
         <button mat-button class="menu-item" routerLink="/enfermagem">Enfermagem</button>
-        <button mat-button class="menu-item" routerLink="/">Sistemas</button>
-        <button mat-button class="menu-item" routerLink="/laboratorio">Laboratório</button>
+        <button mat-button class="menu-item" [matMenuTriggerFor]="compras">Sistemas Administrativos</button>
+        <mat-menu #compras="matMenu">
+          <button  mat-menu-item class="menu-item" routerLink="/compras">Compras</button>
+          <button  mat-menu-item class="menu-item">Outros</button>
+        </mat-menu>
+        <button mat-button color="primary" class="menu-item" routerLink="/laboratorio">Laboratório</button>
       </div>
       </mat-toolbar>
   </header>

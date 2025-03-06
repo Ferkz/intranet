@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-sistemas',
@@ -6,16 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./sistemas.component.scss']
 })
 export class SistemasComponent implements OnInit {
-  @Input() systemName!: string;
-  @Input() systemLink!: string;
-
-  sistemas = [
-    {nome: 'Imagens'},
-  ]
-  icons = [
-    {icon: 'compare'},
-  ]
-
   constructor() { }
 
   ngOnInit(): void {

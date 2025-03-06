@@ -8,6 +8,7 @@ $secondarycolor: #154c79;
 }
 .app-header{
   width: 100%;
+  color: $primaryColor;
   button{
     margin: 0 16px;
   }
@@ -15,8 +16,8 @@ $secondarycolor: #154c79;
     flex: 1 1 auto;
   }
   .menu-item{
-    color: $primaryColor;
-    background-color: $secondarycolor;
+    color: #000000DE;
+    background-color: $primaryColor;
   }
   .logo{
     width: 90px;
