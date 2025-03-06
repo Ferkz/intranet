@@ -15,7 +15,8 @@ export class CardComponent implements OnInit {
     {nome: 'Google Chat', link:'https://mail.google.com/chat/u/0/#chat/home'},
     {nome: 'Gmail', link:'https://mail.google.com'},
     {nome: 'Suporte TI', link:'https://ti.redesamar.com.br/'},
-    {nome: 'Manutenção', link:'https://manutencao.redesamar.com.br/'}
+    {nome: 'Manutenção', link:'https://manutencao.redesamar.com.br/'},
+    {nome:'Evento adverso',link: 'https://docs.google.com/forms/d/e/1FAIpQLScP_geTiJmS-wDFgpBD613hgVw0NKN_wT_WU1bx6oSYqyCJ1A/viewform'}
   ]
   icons = [
     {icon:'local_hospital'},
@@ -25,7 +26,8 @@ export class CardComponent implements OnInit {
     {icon:'chat'},
     {icon:'mail'},
     {icon:'computer'},
-    {icon:'engineering'}
+    {icon:'engineering'},
+    {icon:'edit_calendar'}
   ]
    constructor() { }
 

@@ -14,7 +14,7 @@ $menuBreakpoint: 768px;
 }
 .card-principal {
   display: flex;
-  max-width: 420px;
+  max-width: 450px;
   margin: 10px;
   justify-content:center;
   border-radius: 9px;
@@ -23,10 +23,14 @@ $menuBreakpoint: 768px;
 .link{
   text-decoration: none;
 }
+.text-button{
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .card {
   color: $primarycolor;
   font-size: 13px;
-  width: 90px;
+  width: 100px;
   text-align: center;
   background-color: $secondarycolor;
   border-radius: 10px;
