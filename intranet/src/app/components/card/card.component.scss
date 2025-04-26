@@ -1,15 +1,16 @@
-$primarycolor: #fff;
-$secondarycolor: #154c79;
+$primarycolor: #00164a;
+$secondarycolor:  #3dc4df;
 $menuBreakpoint: 768px;
+$colora: #154c79;
+$tese:#1d5a96;
 .container {
   display: flex;
-  gap: 20px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-end;
+  align-items:center;
   justify-content: center;
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   position: absolute;
 }
 .card-principal {
@@ -50,13 +51,5 @@ $menuBreakpoint: 768px;
 
   }
 }
-.card-img{
-  width: 50%;
-  margin-right: 20px;
-  margin: 1.5rem;
-  @media(max-width: $menuBreakpoint) {
-    width: 100%;
 
-  }
-}
 

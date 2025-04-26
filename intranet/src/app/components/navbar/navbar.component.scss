@@ -1,14 +1,16 @@
 $menuHeight: 60px;
 $menuBreakpoint: 768px;
-$primaryColor: #fff;
-$secondarycolor: #154c79;
+$primaryColor: #00164a;
+$secondarycolor: #3dc4df;
 
 .container{
   margin: 20px;
 }
 .app-header{
   width: 100%;
+  background-color: $secondarycolor;
   color: $primaryColor;
+  min-height: 4.5rem;
   button{
     margin: 0 16px;
   }
@@ -16,13 +18,14 @@ $secondarycolor: #154c79;
     flex: 1 1 auto;
   }
   .menu-item{
-    color: #383636;
-    background-color: $primaryColor;
+    color: $primaryColor;
+
   }
   .logo{
     width: 90px;
     height: 60px;
     align-items: center;
+    padding-bottom: 10px;
     @media (max-width: $menuBreakpoint) {
       display: none;
     }
@@ -63,5 +66,13 @@ $secondarycolor: #154c79;
     margin: 10px;
     display: flex;
   }
+ .mat-menu-content{
+    background:#011649;
+    color: aqua;
+  }
+  .mat-menu-panel.sub-menu{
+    background: rgb(158, 13, 13);
+    color: aqua;
+}
 }
 
