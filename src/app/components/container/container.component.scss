@@ -1,0 +1,10 @@
+.background-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url('../../../assets/background.png') no-repeat center center;
+  background-size: cover;
+  background-position:center top ;
+  z-index: -1;
+  min-height: 100vh;
+}

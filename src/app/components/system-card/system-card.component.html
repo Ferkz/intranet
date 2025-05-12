@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="menu">
+    <div class="card-principal" *ngFor="let system of systems">
+      <a [href]="system.link" target="_blank" class="link">
+        <mat-card class="card">
+          <mat-icon>{{ system.icon }}</mat-icon>
+          <mat-card-actions align="end">
+            <button mat-button>
+              <p class="text-button">{{ system.name }}</p>
+            </button>
+          </mat-card-actions>
+        </mat-card>
+      </a>
+    </div>
+  </div>
+</div>
